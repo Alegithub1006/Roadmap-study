@@ -1,0 +1,154 @@
+/*------------Fonts Section----------------*/
+@font-face {
+    font-family: 'ciclefina';
+    src: url('fonts/cicle_fina-webfont.woff2') format('woff2'),
+        url('fonts/cicle_fina-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('fonts/zantroke-webfont.woff2') format('woff2'),
+        url('fonts/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------Fonts Section----------------*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    border: 2px solid black;
+}
+
+h1, h2, h3 {
+    font-family: 'zantrokeregular';
+}
+
+/*------------HEADER SECTION--------------*/
+header{
+    display: flex;
+    justify-content: space-around;
+}
+    .photo-user{
+        margin: auto 5px;
+        background-color: #222;
+        width: 40px;
+        height: 40px;
+    }
+    span{
+        margin: auto 7px;
+    }
+    nav{
+        flex-grow: 2;
+    }
+    nav > p{
+        text-align: right;
+        margin-right: 10px;
+    }
+    .header-nav-bar{
+        text-decoration: none;
+        color: #222;
+    }
+
+/*------------HEADER SECTION END--------------*/
+
+/*---------------------MAIN SECTION-----------------*/
+h1{
+    text-align: center;
+}
+main > p{
+    color: #555;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*SECTION*/
+
+section{
+    display: flex;
+}
+    aside{
+        width: 20%;
+    }
+
+    aside > h2{
+        margin-left: 20px;
+    }
+    .aside-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-nav-bar{
+        padding: 5px 20px;
+        text-decoration: none;
+        color: #222;
+        border: 2px solid #222;
+    }
+
+    .section-article{
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .article-section{
+        width: 40%;
+    }
+
+    .article-content{
+        margin: 0 20px;
+    }
+
+        .article-content-text{
+            max-width: 250px;
+        }
+
+    .article-title{
+        margin-left: 20px;
+    }
+    .article-span{
+        margin-left: 20px;
+    }
+
+    .article-text{
+        margin-left: 25px;
+        max-width: 200px;
+    }
+
+/*SECTION END*/
+main > article{
+    display: flex;
+    flex-wrap: wrap;
+}
+main > article > h2{
+    width: 100%;
+    margin-left: 15px;
+}
+    .text-article{
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 8px;
+        max-width: 300px;
+        max-height: 300px;
+        border: 2px solid #222;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    main > article > p > span{
+        color: #555;
+    }
+/*---------------------MAIN SECTION END-----------------*/
+/*----------------FOOTER SECTION------------------------*/
+footer{
+    margin: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/*----------------FOOTER SECTION END------------------------*/
